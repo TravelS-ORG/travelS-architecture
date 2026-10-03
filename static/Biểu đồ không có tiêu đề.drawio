@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="5FBW6CoIR7AD7XlRqQ_p">
+    <mxGraphModel dx="1528" dy="2199" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GZ877jucthjUZ-gyh_lx-23" parent="1" style="whiteSpace=wrap;html=1;strokeColor=default;dashed=1;opacity=50;" value="" vertex="1">
+          <mxGeometry height="110" width="310" x="180" y="-200" as="geometry" />
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-22" parent="1" style="whiteSpace=wrap;html=1;strokeColor=default;dashed=1;opacity=50;" value="" vertex="1">
+          <mxGeometry height="400" width="530" x="220" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;dashed=1;opacity=50;" value="" vertex="1">
+          <mxGeometry height="179" width="179" x="264.5" y="175.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=default;" value="ms_travels" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="PostgreSQL" vertex="1">
+          <mxGeometry height="100" width="80" x="204" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-7" edge="1" parent="1" source="GZ877jucthjUZ-gyh_lx-3" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="GZ877jucthjUZ-gyh_lx-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="380" as="sourcePoint" />
+            <mxPoint x="200" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-35" connectable="0" parent="GZ877jucthjUZ-gyh_lx-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="WRITE / READ" vertex="1">
+          <mxGeometry relative="1" x="0.4961" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-20" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;dashed=1;opacity=50;" value="" vertex="1">
+          <mxGeometry height="179" width="179" x="520.5" y="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="ms_searchers" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-17" edge="1" parent="1" source="GZ877jucthjUZ-gyh_lx-3" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="GZ877jucthjUZ-gyh_lx-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="265" />
+            </Array>
+            <mxPoint x="570" y="200" as="sourcePoint" />
+            <mxPoint x="610" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-30" connectable="0" parent="GZ877jucthjUZ-gyh_lx-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Analytics Events/DB" vertex="1">
+          <mxGeometry relative="1" x="-0.3617" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Web UI" vertex="1">
+          <mxGeometry height="60" width="120" x="204" y="-175" as="geometry" />
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="OS UI" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="-175" as="geometry" />
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-26" edge="1" parent="1" source="GZ877jucthjUZ-gyh_lx-23" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="GZ877jucthjUZ-gyh_lx-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="-145" />
+            </Array>
+            <mxPoint x="490" y="-210" as="sourcePoint" />
+            <mxPoint x="620" y="-210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-28" connectable="0" parent="GZ877jucthjUZ-gyh_lx-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Search req/res" vertex="1">
+          <mxGeometry relative="1" x="0.1825" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-32" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="PostgreSQL" vertex="1">
+          <mxGeometry height="100" width="80" x="430" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-33" edge="1" parent="1" source="GZ877jucthjUZ-gyh_lx-3" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="GZ877jucthjUZ-gyh_lx-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="300" as="sourcePoint" />
+            <mxPoint x="310" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-38" connectable="0" parent="GZ877jucthjUZ-gyh_lx-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="READ" vertex="1">
+          <mxGeometry relative="1" x="0.3572" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-39" edge="1" parent="1" source="GZ877jucthjUZ-gyh_lx-1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="GZ877jucthjUZ-gyh_lx-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="520" as="sourcePoint" />
+            <mxPoint x="340" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-40" connectable="0" parent="GZ877jucthjUZ-gyh_lx-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Sync up" vertex="1">
+          <mxGeometry relative="1" x="-0.0342" y="-5" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Admin UI&lt;div&gt;&amp;nbsp;(private subnet)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-42" edge="1" parent="1" source="GZ877jucthjUZ-gyh_lx-3" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="GZ877jucthjUZ-gyh_lx-41" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="265" />
+            </Array>
+            <mxPoint x="50" y="180" as="sourcePoint" />
+            <mxPoint x="100" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZ877jucthjUZ-gyh_lx-43" connectable="0" parent="GZ877jucthjUZ-gyh_lx-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Admin operations" vertex="1">
+          <mxGeometry relative="1" x="-0.295" y="3" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
